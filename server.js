@@ -10,8 +10,8 @@ const hostname = '127.0.0.1';
 const mysql = require("mysql")
 const connexion = mysql.createConnection({
   host : '127.0.0.1',
-  user : "root",
-  password : "",
+  user : "cedric",
+  password : "azerty",
   database : 'dashboard_nuxt',
 })
 
